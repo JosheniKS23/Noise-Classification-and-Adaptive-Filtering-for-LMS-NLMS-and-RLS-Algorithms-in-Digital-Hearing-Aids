@@ -1,0 +1,10 @@
+numpy
+pandas
+librosa
+matplotlib
+seaborn
+tqdm
+scikit-learn
+tensorflow
+keras-tuner
+gc-python-utils
