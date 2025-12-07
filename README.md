@@ -30,11 +30,17 @@ Comparative Performance of LMS, NLMS and RLS Algorithms in Digital Hearing Aids*
 ## 📁 Repository Structure
 
 ├── plots/ # All generated ML/DL visualizations
+
 ├── tuner_cnn/ # CNN hyperparameter tuning logs & checkpoints
+
 ├── tuner_mlp/ # MLP hyperparameter tuning logs
+
 ├── Simulink Models/ # LMS, NLMS, RLS adaptive filter simulations
+
 ├── UrbanSound8K/ # Dataset folder (user must download separately)
+
 ├── IEE_f.py # Complete classification + ensemble pipeline
+
 └── README.md # Project documentation
 
 
@@ -46,8 +52,8 @@ Comparative Performance of LMS, NLMS and RLS Algorithms in Digital Hearing Aids*
 - MFCC (40 coefficients)
 - Mel-spectrograms (128×128)
 - Augmented audio:
-  - Additive white noise
-  - Pitch shifting
+- Additive white noise
+- Pitch shifting
 
 ### 🔹 Models Implemented
 - **MLP** (deep fully-connected network)
